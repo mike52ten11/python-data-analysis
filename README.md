@@ -14,8 +14,10 @@
 
 
   ## 安裝
-### Step 1  下載Anaconda
+### Step 1.1  下載Anaconda
     https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Windows-x86_64.exe
+    
+### Step 1.2  下載Anaconda    
     打開Anaconda Prompt
 
 ### Step 2.1  用conda建立虛擬環境並
