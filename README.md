@@ -45,7 +45,7 @@ cd python-data-analysis
 ```bash
 pip install -r requirements.txt
 ```
-### Step 76  開啟編輯器
+### Step 7  開啟編輯器
 
 ```bash
 spyder
