@@ -22,7 +22,7 @@
 ```bash
 conda create -n python_data_analysis python==3.9
 ```
-## Step 2.2 啟用環境
+### Step 2.2 啟用環境
 ```bash
 conda activate python_data_analysis
 ```
