@@ -18,9 +18,9 @@
   ### Step 1  安裝git    
     https://git-scm.com/download/win
   ### Step 2  取得專案  
-    ```bash
-      git clone git@github.com:hsiangfeng/README-Example-Template.git
-    ```
+```bash
+      git clone https://github.com/mike52ten11/python-data-analysis.git
+```
 
 ### 取得專案
 
