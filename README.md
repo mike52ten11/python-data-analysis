@@ -14,32 +14,37 @@
 
 
   ## 安裝
+### Step 1  下載Anaconda
+    https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Windows-x86_64.exe
+    打開Anaconda Prompt
 
-  ### Step 1  安裝git    
+### Step 2.1  用conda建立虛擬環境並
+```bash
+conda create -n python_data_analysis python==3.9
+```
+## Step 2.2 啟用環境
+```bash
+conda activate python_data_analysis
+```
+### Step 3  安裝git    
     https://git-scm.com/download/win
-  ### Step 2  取得專案  
+### Step 4  取得專案  
 ```bash
 git clone https://github.com/mike52ten11/python-data-analysis.git
 ```
-
-### 取得專案
-
-```bash
-git clone git@github.com:hsiangfeng/README-Example-Template.git
-```
-
-### 移動到專案內
+### Step 5  移動到專案內
 
 ```bash
-cd README-Example-Template
+cd python-data-analysis
 ```
 
-### 安裝套件
+### Step 6  安裝套件
 
 ```bash
-npm install
+pip install -r requirements.txt
 ```
+### Step 76  開啟編輯器
 
-### 環境變數設定
-
-請在終端機輸入 `cp .env.example .env` 來複製 .env.example 檔案，並依據 `.env` 內容調整相關欄位。
+```bash
+spyder
+```
