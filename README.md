@@ -15,11 +15,12 @@
 
   ## 安裝
 
-  ## Step 1 
-    安裝git
+  ### Step 1  安裝git    
     https://git-scm.com/download/win
-
-Node.js 版本建議為：`16.15.0` 以上...
+  ### Step 2  取得專案  
+    ```bash
+      git clone git@github.com:hsiangfeng/README-Example-Template.git
+    ```
 
 ### 取得專案
 
