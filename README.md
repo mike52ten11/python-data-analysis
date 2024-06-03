@@ -19,7 +19,7 @@
     https://git-scm.com/download/win
   ### Step 2  取得專案  
 ```bash
-      git clone https://github.com/mike52ten11/python-data-analysis.git
+git clone https://github.com/mike52ten11/python-data-analysis.git
 ```
 
 ### 取得專案
