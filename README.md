@@ -15,6 +15,7 @@
 
   ## 安裝
 ### Step 1.1  下載Anaconda
+    https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
     https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Windows-x86_64.exe
     
 ### Step 1.2  下載Anaconda    
