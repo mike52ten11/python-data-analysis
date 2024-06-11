@@ -7,8 +7,4 @@ scikit-learn==1.1.2
 scipy==1.9.1
 seaborn==0.13.2
 plotly==5.22.0
-<<<<<<< HEAD
 spyder==5.3.3
-=======
-spyder==5.3.3
->>>>>>> ad595149f735836b79bdeae44c649675fb35353b

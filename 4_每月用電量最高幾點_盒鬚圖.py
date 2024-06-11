@@ -38,6 +38,7 @@ matplotlib.rcParams['font.family'] = 'Microsoft YaHei'
 
 fig = px.box(max_kwh, x="Month", y="Hour",points="all")
 fig.update_yaxes(range=[-1,24], dtick=1)
+fig.write_image("box_plot.pdf")
 fig.show()
 
 
