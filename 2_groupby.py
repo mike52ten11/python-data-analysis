@@ -9,15 +9,15 @@ import pandas as pd
 import os
 
 # 讀取原始CSV文件
-data = pd.read_csv('L436598_FCUSTOMER_HHD.csv',encoding='ANSI')
+data = pd.read_csv('用戶1~3.csv',encoding='ANSI')
 
 # 根據fcustomerid列對數據進行分組
 grouped = data.groupby('fcustomerid')
 
-os.makedirs('Group',exist_ok=True)
+os.makedirs('2_groupby',exist_ok=True)
 # 對每個分組應用函數,將數據寫入新的CSV文件
 for name, group in grouped:
-    group.to_csv(f'Group/output_{name}.csv', index=False,encoding='ANSI')
+    group.to_csv(f'2_groupby/output_{name}.csv', index=False,encoding='ANSI')
 
 
 
