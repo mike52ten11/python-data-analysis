@@ -1,3 +1,4 @@
+chcp 65001
 @echo off
 echo.
 echo. 一鍵安裝 Aanconda Python 環境
