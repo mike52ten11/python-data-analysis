@@ -4,10 +4,10 @@ echo. 一鍵安裝 Aanconda Python 環境
 
 CALL C:\ProgramData\miniconda3\Scripts\activate.bat C:\ProgramData\miniconda3
 
-cd C:\code\python-data-analysis
-call conda activate python_data_analysis
+cd C:\code\awstpri
+call conda activate python_lesson
 call conda env list
-spyder
+jupyter notebook
 call conda deactivate
 pause
 @echo on
