@@ -12,7 +12,7 @@ import matplotlib
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 import numpy as np;
 # 讀取CSV文件
-data = pd.read_csv('Group_by_fcustomerid/output_1.csv',encoding='ANSI')
+data = pd.read_csv('2_groupby/output_1.csv',encoding='ANSI')
 #找year=2020
 data_2020 = data[data['Year'] == 2020]
 # 根據fcustomerid列對數據進行分組
@@ -90,6 +90,9 @@ def hover(event):
 
 fig.canvas.mpl_connect("motion_notify_event", hover)
 
+os.makedirs('3_找出每天用電量最高在幾點', exist_ok=True)
+# 顯示圖片
+plt.savefig('3_找出每天用電量最高在幾點/output_matplotlib.png')
 plt.show()
 
 
