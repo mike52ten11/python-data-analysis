@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pandas as pd
 import numpy as np
 #讀取csv 
@@ -46,3 +47,23 @@ fig = px.box(data, x="Month", y="Hour",title='2020年_每月每天最高用電�
 fig.update_yaxes(range=[-1,24], dtick=1)
 
 fig.show()
+=======
+# 步驟1:導入所需的庫
+import matplotlib.pyplot as plt
+import numpy as np
+import os
+import pandas as pd
+
+# 批量讀取csv
+def  read_csv_batch(csv_path):
+
+
+
+if __name__ == '__main__':
+
+    csv_path ='2_groupby/output_1.csv'  # 資料檔案名稱
+    csv_path2 ='2_groupby/output_2.csv'  # 資料檔案名稱
+    csv_path3 ='2_groupby/output_3.csv'  # 資料檔案名稱
+    # 步驟2:讀取資料
+    df = pd.read_csv()
+>>>>>>> c75cee3c5befc8023759b91d4c42571f24e51320
